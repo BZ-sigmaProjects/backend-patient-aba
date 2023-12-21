@@ -26,7 +26,7 @@ export class PatientsService {
       ...createPatientDto
     }
 
-    this.patients.push(newPatient);
+    this.patients.unshift(newPatient);
        // send a brief details of patient foe security purposes
        return this.patients.map(p =>{
         const patientBriefProfile = new PatientBriefProfileDto();
