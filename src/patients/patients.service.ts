@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
 import { CreatePatientDto, PatientProfileDto, PatientBriefProfileDto } from './dtos';
 import { Patient } from './entities/patient.entity'
-import { memoizationPatients } from '../static_data/memoizationPatients';
+import { memoizationPatients } from '../caching/memoizationPatients';
 
 @Injectable()
 export class PatientsService {
