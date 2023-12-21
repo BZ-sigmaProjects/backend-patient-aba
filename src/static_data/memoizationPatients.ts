@@ -1,7 +1,7 @@
 import { Patient } from "src/patients/entities/patient.entity";
 
 
-// we can use closure, function first classe citizen, Hogher oder function, to create a local memoization 
+// we can use closure, function first classe citizen, Higher oder function, to create a local memoization 
 export function memoizationPatients(){
     let stub_patients : Patient[] = [
         {
@@ -32,7 +32,7 @@ export function memoizationPatients(){
             firstName: 'laila',
             lastName: "Bouziani",
             gender: 'F',
-      dateOfBirth: '01/01/1965',
+            dateOfBirth: '01/01/1965',
             isAdherent: false,
             email: null,
             mobilePhone: '0682658958',
@@ -53,7 +53,7 @@ export function memoizationPatients(){
             firstName: 'laila',
             lastName: "Bouziani",
             gender: 'F',
-      dateOfBirth: '01/01/1965',
+            dateOfBirth: '01/01/1965',
             isAdherent: false,
             email: null,
             mobilePhone: '0682658958',
@@ -75,7 +75,7 @@ export function memoizationPatients(){
             firstName: 'laila',
             lastName: "Bouziani",
             gender: 'F',
-      dateOfBirth: '01/01/1965',
+            dateOfBirth: '01/01/1965',
             isAdherent: false,
             email: null,
             mobilePhone: '0682658958',
@@ -96,7 +96,7 @@ export function memoizationPatients(){
             firstName: 'laila',
             lastName: "Bouziani",
             gender: 'F',
-      dateOfBirth: '01/01/1965',
+            dateOfBirth: '01/01/1965',
             isAdherent: false,
             email: null,
             mobilePhone: '0682658958',
@@ -118,7 +118,7 @@ export function memoizationPatients(){
             firstName: 'laila',
             lastName: "Bouziani",
             gender: 'F',
-      dateOfBirth: '01/01/1965',
+            dateOfBirth: '01/01/1965',
             isAdherent: false,
             email: null,
             mobilePhone: '0682658958',
@@ -139,7 +139,7 @@ export function memoizationPatients(){
             firstName: 'laila',
             lastName: "Bouziani",
             gender: 'F',
-      dateOfBirth: '01/01/1965',
+            dateOfBirth: '01/01/1965',
             isAdherent: false,
             email: null,
             mobilePhone: '0682658958',
@@ -161,7 +161,7 @@ export function memoizationPatients(){
             firstName: 'laila',
             lastName: "Bouziani",
             gender: 'F',
-      dateOfBirth: '01/01/1965',
+            dateOfBirth: '01/01/1965',
             isAdherent: false,
             email: null,
             mobilePhone: '0682658958',
@@ -182,7 +182,7 @@ export function memoizationPatients(){
             firstName: 'laila',
             lastName: "Bouziani",
             gender: 'F',
-      dateOfBirth: '01/01/1965',
+            dateOfBirth: '01/01/1965',
             isAdherent: false,
             email: null,
             mobilePhone: '0682658958',

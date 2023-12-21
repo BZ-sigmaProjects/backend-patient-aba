@@ -2,6 +2,19 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
+**NOTE**
+  I used : closure, function first classe citizen, Higher oder function, to create a local memoization, 
+  otherwise if we have a database, I wil use and recommande the uncle BOB clean architecture, 
+
+  ![uncle BO](https://blog.cleancoder.com/uncle-bob/images/2012-08-13-the-clean-architecture/CleanArchitecture.jpg)
+
+---
+
+
+
+
+
+
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 

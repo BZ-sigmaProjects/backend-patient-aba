@@ -27,7 +27,7 @@ export class PatientsService {
     }
 
     this.patients.unshift(newPatient);
-       // send a brief details of patient foe security purposes
+       // send a brief details of patient for security purposes
        return this.patients.map(p =>{
         const patientBriefProfile = new PatientBriefProfileDto();
         patientBriefProfile.cin = p.cin;
@@ -44,7 +44,7 @@ export class PatientsService {
 
   
   findAll() {
-    // send a brief details of patient foe security purposes
+    // send a brief details of patient for security purposes
     return this.patients.map(p =>{
       const patientBriefProfile = new PatientBriefProfileDto();
       patientBriefProfile.cin = p.cin;
